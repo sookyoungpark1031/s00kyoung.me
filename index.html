@@ -5,81 +5,169 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="soo-style.css">
 </head>
 
 
 <header>
-    <h1 class="logo">FLYWHERE</h1>
+    <a href="#" class="logo-link">
+        <img src="./logo.png" class="logo-image">
+        <span class="logo-text">TripAdvisor</span>
+    </a>
+
     <ul class="menu">
-        <li class="active"><a href="#"></a>Home</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Tours</li>
-        <li class="ctn"><a href="#"></a>Contact</li>
+        <li class="active"><a href="#"></a>Plus</li>
+        <li><a href="#"></a>Review</li>
+        <li><a href="#"></a>Trips</li>
+        <li><a href="#"></a>Alert</li>
+        <li class="ctn"><a href="#"></a>Sign In</li>
     </ul>
     <img src="./icon.png" alt="" class="menu-btn">
 </header>
 
 <body>
     <div class="landing-content">
+        <video autoplay loop muted plays-inline class="landing-video">
+            <source src="./rome.mp4" type="video/mp4">
+        </video>
         <div class="landing-text">
-            <h2>Life is short!</h2>
+            <h2>Life is short</h2>
             <div class="line"></div>
-            <h1>Make every trip count with us</h1>
-            <a href="#" class="ctn">Learn More</a>
+            <h1>Make every trip count with us!</h1>
         </div>
+        
+        <form>
+            <div class="box">
+                <input type="text" name="" placeholder="Where To?"> 
+                <input type="submit" name="" value="Search">
+                
+            </div>
+        </form>
     </div>
 
 
-    <!--==Events==-->
     <section class="events">
         <div class="title">
-            <h1>Upcoming Trip</h1>
+            <h1>Where To go Right Now</h1>
             <div class="line"></div>
         </div>
         <div class="row">
             <div class="col">
-                <img src="./korea.jpg" alt="">
-                <h3>Seoul</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur soluta officiis facilis itaque ut consequuntur earum quidem cumque ipsa recusandae impedit asperiores, labore molestias, inventore blanditiis adipisci excepturi nostrum fugiat!</p>
-                <a href="#" class="ctn">Learn More</a>
+                <div class="image-container">
+                    <img src="./switz.jpg" alt="">
+                    <div class="text-overlay">
+                        <h3>Switzerland</h3>
+                    </div>
+                </div>
             </div>
             <div class="col">
-                <img src="./paris.jpg" alt="">
-                <h3>Eiffel Tower</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur soluta officiis facilis itaque ut consequuntur earum quidem cumque ipsa recusandae impedit asperiores, labore molestias, inventore blanditiis adipisci excepturi nostrum fugiat!</p>
-                <a href="#" class="ctn">Learn More</a>
+                <div class="image-container">
+                    <img src="./paris.jpg" alt="">
+                    <div class="text-overlay">
+                        <h3>France</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="image-container">
+                    <img src="./southkorea.jpg" alt="">
+                    <div class="text-overlay">
+                        <h3>South Korea</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="image-container">
+                    <img src="./santorini.jpg" alt="">
+                    <div class="text-overlay">
+                        <h3>Greece</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="explore">
         <div class="explore-content">
-            <h1>Explore Paris</h1>
-            <div class="line"></div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa eius, temporibus id dolorem sunt voluptatum. Libero accusantium possimus facilis sed ex, tempora aliquid quidem! Quo ratione error tempora enim tempore!</p>
-            <a href="#" class="ctn">Learn More</a>
+            <h1>Planning spring break? Take our quiz</h1>
+            <p>Find things to do, personalized for you.</p>
+            <a href="#" class="ctn">Start Quiz</a>
         </div>
     </section>
 
     <section class="tours">
         <div class="row">
             <div class="col content-col">
-                <h1>Previous Destination & Reviews</h1>
+                <h1>Top Experiences on TripAdvisor</h1>
                 <div class="line"></div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quam, voluptatum porro corrupti ut obcaecati aliquid minus magnam, numquam totam labore repudiandae est eveniet esse consectetur, maxime dolorum nostrum quia!</p>
                 <a href="#" class="ctn">Learn More</a>
             </div>
             <div class="col image-col">
                 <div class="image-gallery">
-                    <img src="./santorini.jpg" alt="">
-                    <img src="./santorini.jpg" alt="">
-                    <img src="./santorini.jpg" alt="">
-                    <img src="./santorini.jpg" alt="">
+                    <img src="./boat.jpg" alt="">
+                    <img src="./aurora.jpg" alt="">
+                    <img src="./sunset.jpg" alt="">
+                    <img src="./skydiving.jpg" alt="">
+                    <img src="./snorkeling.jpg" alt="">
+                    <img src="./jetski.jpg" alt="">
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="guide">
+        <div class="guide-content">
+            <h1>Be the Guide</h1>
+            <div class="line"></div>
+            <p>Your last trip is someone's helpful tip!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="moreexplore">
+        <div class="title">
+            <h1>More to Explore</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./festival3.jpg" alt="">
+                <h3>Best 5 Festivals In the World</h3>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./taiwan.jpg" alt="">
+                <h3>Taiwan's Landtern Ceremony</h3>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./roadtrip.jpg" alt="">
+                <h3>Two weeks Road Trip Guide</h3>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="travel-choice">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Travelers' Choice Best of the Best</h1>
+                <div class="line"></div>
+                <a href="#" class="ctn">See Winners</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./paris.jpg" alt="">
+                    <img src="./festival.jpg" alt="">
+                    <img src="./festival2.jpg" alt="">
+                    <img src="./switz.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
 
     <footer>
         <p>6 Juniper Circle, Lebanon, New Hampshire, 03766 | Phone: 603.322.0090 | Email: sookyoung.park.gr@dartmouth.edu</p>
